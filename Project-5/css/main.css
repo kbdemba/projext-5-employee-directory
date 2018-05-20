@@ -6,7 +6,7 @@ h2{
   display: grid;
   /* grid-template-columns:1fr 1fr 1fr;*/
   grid-template-columns:repeat(3, 1fr);
-  grid-gap:3em;
+  grid-gap:1em;
   margin: 10px 40px;
 }
 
