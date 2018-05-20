@@ -1,0 +1,192 @@
+
+h2{
+  margin: 40px 40px;
+  }
+  .container{
+  display: grid;
+  /* grid-template-columns:1fr 1fr 1fr;*/
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:3em;
+  margin: 10px 40px;
+}
+
+.card{
+  border: solid #c6c9d1 2px;
+  border-radius: 10px;
+}
+.card:hover{
+  background: #e8eaef;
+  box-shadow: 2px 6px 12px 0 rgba(0,0,0,0.4);
+}
+.image{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 70%;
+  padding: 1.5em;
+}
+
+.card{
+  display: grid;
+  grid-template-columns:2fr 3fr;
+  grid-gap:0.5em;
+}
+
+.left{
+
+}
+ .right{
+   margin: auto 0;
+ }
+
+ #close{
+   float: right;
+   font-size: 2em;
+   color: grey;
+ }
+ #close:hover, .close:focus{
+   color: black;
+   cursor: pointer;
+ }
+
+ .modal{
+   display: none;
+   position: fixed;
+   top: 0;
+   left:0;
+   background: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   height: 100%;
+   z-index: 1;
+   overflow: auto;
+ }
+ #modal-content{
+   padding: 1.5em;
+   text-align: center;
+   position: fixed;
+   top: 20%;
+   left: 40%;
+   border-radius: 2%;
+   background: #fff;
+
+ }
+ .image-modal{
+   border-radius: 50%;
+
+ }
+ hr{
+   margin: 25px 25px;
+ }
+ .name{
+   color: black;
+   font-weight: bolder;
+   text-transform: capitalize;
+   margin-bottom: 7px;
+ }
+ .email, .location, .cell, .city, .birthdate{
+   color: grey;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+
+
+
+
+
+/*body{
+  background: grey;
+}
+
+.container{
+  background: white;
+  margin: 0 auto;
+  padding: 20px;
+  ccpadding-left: 20px;
+
+}
+.card{
+  border: solid grey 1px;
+  border-radius: 2%;
+  margin: 10px 1%;
+  padding: 4px;
+  display: inline-block;
+  width: 30%;
+  height: 10em;
+  background: white;
+  box-shadow: 1px 5px 8px 0 rgba(0,0,0,0.4);
+  add trans
+}
+.image, .image-modal{
+  border-radius: 50%;
+
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+.card:hover{
+  background: #ddd;
+}
+.left{
+  width:40%;
+  display: inline-block;
+}
+.right{
+  width: 50%;
+  display: inline-block;
+}
+.close{
+  float: right;
+  font-size: 2em;
+  color: grey;
+
+}
+.close:hover, .close:focus{
+  font-size;
+  color: black;
+  cursor: pointer;
+}
+.modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  left:0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#modal-content{
+  position: fixed;
+  border-radius: 2%;
+  top: 10%;
+  left: 40%;
+  heigsht: 22%;
+  padding: 20px;
+  margin-top: 40px auto;
+  width: 20%;
+  background: white;
+}
+hr{
+  margin: 25px 0;
+}
+#modal-content{
+  text-align: center;
+}
+.name{
+  color: black;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email, .location, .cell, .city, .birthdate{
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+*/
